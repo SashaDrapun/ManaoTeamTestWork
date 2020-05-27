@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(249, 146, 43, 0.8);
+    text-align: center;
+}
+
+form{
+    grid-area: form;
+    padding: 1px;
+  background: white;
+  position: fixed; top: 50%; left: 50%;
+  height: 675px;
+  width: 675px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.3rem;
+    font-family: 'Monotype Corsiva';
+}
+
+.hidden{
+    display: none;
+}
+
+.inputs{
+	border: none;
+	border-bottom: 1px solid rgb(247,147,30);;
+	width: 80%;
+	font-family: 'ISOCPEUR';
+	color: rgb(247,147,30);
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight:700;
+	margin-bottom:25px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(247,147,30);
+     font-family: 'ISOCPEUR';
+     font-weight:700;
+ }
+ 
+ 
+ ::-moz-placeholder {
+   color: rgb(247,147,30);
+     font-family: 'ISOCPEUR';
+     font-weight:700;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: rgb(247,147,30);
+     font-family: 'ISOCPEUR';
+     font-weight:700;
+ }
+
+input,
+button{
+	outline: none !important; /*При наведении убирает синюю обводку у компонентов*/
+}
+
+#SwitchButtonsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#SwitchButtonsContainer>button{
+    height: 50px;
+    width: 40%;
+}
+
+#submit-Container>button{
+    height: 50px;
+    width: 80%;
+}
+
+#Registration{
+    color: white;
+}
+
+button{
+    background-color:rgba(0,0,0,0.7);
+    color: rgb(247,147,30);
+     font-family: 'ISOCPEUR';
+     font-weight:700;
+     font-size: 1.5rem;
+}
+
+#greeting{
+    color: white;
+    font-size: 2rem;
+}
