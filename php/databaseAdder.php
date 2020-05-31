@@ -18,11 +18,11 @@ function addUser($currentUser){
     saveXML($doc);
 }
 
-function saveXML($doc){
+function saveXML($doc){// cохраняет отформатированный xml документ
     $dom = new DOMDocument('1.0');
     $dom->preserveWhiteSpace = false;
     $dom->formatOutput = true;
     $dom->loadXML($doc->asXML());
-    $dom->save('database.xml');
+    $dom->save('../database.xml');
 }
 ?>

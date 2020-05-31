@@ -18,6 +18,6 @@
 
     function hashPassword($password,$salt)
     {
-        return md5($salt.$password);
+        return md5($password.$salt);
     }
 ?>

@@ -9,8 +9,7 @@ function isEmailUnique($email){
             }
          }
          return true;
-    }
-  
+    }  
     return false;
 }
 

@@ -1,7 +1,7 @@
 $( document ).ready(function() {
     $("#submit").click(
 		function(){
-			sendAjaxForm('ajax_form', '../php/action_ajax_form.php');
+			sendAjaxForm('ajax_form', '../../php/action_ajax_form.php');
 			return false; 
 		}
 	);
@@ -22,7 +22,6 @@ function sendAjaxForm(ajax_form, url) {
 				}
 				if(result.successfulAutorization !== undefined){
 					showElement('#successfulAutorization');
-					console.log("123");
 					location.href=location.href;
 				}
 				if(result.successfulRegistration === undefined &&

@@ -8,4 +8,32 @@
     <password>44713b8b1d55aa86560ce3f5c6114fa5</password>
     <salt>faoavijeimo3bjgquv2vxtzwj4hqohig</salt>
   </user>
+  <user>
+    <name>Sasha</name>
+    <email>Sasha</email>
+    <login>Sasha</login>
+    <password>78c5b22eb86d544f920c00cec9074661</password>
+    <salt>6po3zmrbw8rhbg4rkp5ujbifcf60kxb4</salt>
+  </user>
+  <user>
+    <name>Sasha1</name>
+    <email>Sasha1</email>
+    <login>Sasha1</login>
+    <password>40dc75ed38d56226fd2f52e84af9605e</password>
+    <salt>ruasfmg8c5j0wbgpafenf3xvt3bzhtrk</salt>
+  </user>
+  <user>
+    <name>Sasha2</name>
+    <email>Sasha2</email>
+    <login>Sasha2</login>
+    <password>21522eae7c1178f06dc89e7a4756bece</password>
+    <salt>cfr4hqre2wd20f3gjzwgwknaz4fitzis</salt>
+  </user>
+  <user>
+    <name>333333</name>
+    <email>333333</email>
+    <login>333333</login>
+    <password>babfce612c0ce0f840b5ebd8e0a34046</password>
+    <salt>d7bz6ys8qgcamfspqzhrjpw3r3fvmwdc</salt>
+  </user>
 </users>
